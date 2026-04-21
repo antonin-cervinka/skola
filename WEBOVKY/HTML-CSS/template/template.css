@@ -1,0 +1,98 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* === HLAVNÍ STRUKTURA === */
+body {
+  background: #f4f4f4;
+  color: #222;
+}
+
+/* === HLAVIČKA === */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 20px 10%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #0078ff;
+}
+
+/* === HERO === */
+.hero {
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.hero button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #0078ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* === BOXY === */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 10%;
+  background: #0078ff;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 250px;
+  margin: 10px;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* === OBSAH S OBRÁZKEM === */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.content .text {
+  width: 45%;
+}
+
+.content .image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* === FOOTER === */
+.footer {
+  text-align: center;
+  background: #111;
+  color: #aaa;
+  padding: 15px;
+  font-size: 14px;
+}
